@@ -1,6 +1,9 @@
 # diarrhea History
 
 
+## 3.0.3
+* Fix link in markdown
+
 ## 3.0.2
 * Added --root option
 * Some refactoring with eslint

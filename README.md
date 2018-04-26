@@ -3,7 +3,7 @@
 
 Diarrhea is a fork of [ModClean](https://github.com/ModClean/modclean) with some optimizations.
 
-[![Build Status](https://travis-ci.org/jehy/diarrhea.svg?branch=master)](https://travis-ci.org/jehy/wtfwith)
+[![Build Status](https://travis-ci.org/jehy/diarrhea.svg?branch=master)](https://travis-ci.org/jehy/diarrhea)
 [![npm version](https://img.shields.io/npm/v/diarrhea.svg)](https://www.npmjs.com/package/diarrhea)
 ![NPM Dependencies](https://david-dm.org/jehy/diarrhea.svg)
 [![NPM Downloads](https://img.shields.io/npm/dm/diarrhea.svg)](https://www.npmjs.com/package/diarrhea)
