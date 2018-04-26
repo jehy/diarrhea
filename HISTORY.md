@@ -1,6 +1,11 @@
 # diarrhea History
 
 
+## 3.0.2
+* Added --root option
+* Some refactoring with eslint
+* travis integration
+
 ## 3.0.1
 * some renaming
 

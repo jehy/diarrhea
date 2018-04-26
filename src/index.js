@@ -1,11 +1,18 @@
-module.exports={
+'use strict';
+
+const glob = require('glob');
+const chalk = require('chalk');
+const rimraf = require('rimraf');
+const {Progress, Spinner} = require('clui');
+
+module.exports = {
   // notifier: require('update-notifier'), //does not buld normally :(
-  glob: require('glob'),
-  rimraf: require('rimraf'),
-  chalk: require('chalk'),
+  glob,
+  rimraf,
+  chalk,
   clui:
     {
-      Progress: require('clui').Progress,
-      Spinner: require('clui').Spinner,
-    }
+      Progress,
+      Spinner,
+    },
 };
