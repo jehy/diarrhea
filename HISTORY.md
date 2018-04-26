@@ -1,4 +1,13 @@
-# ModClean History
+# diarrhea History
+
+## 3.0.0
+* Fok from [modclean](https://github.com/ModClean/modclean)
+* update deps
+* removed test script
+* use bundled dependencies
+* remove update notifier
+* use exact version of modclean-patterns-default
+* bump to major version
 
 ## 2.1.2 (11/6/2017)
 * Update package.json to use latest version of `modclean-patterns-default`

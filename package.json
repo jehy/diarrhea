@@ -1,17 +1,18 @@
 {
-  "name": "modclean",
+  "name": "diarrhea",
   "version": "3.0.0",
   "description": "Remove unwanted files and directories from your node_modules folder",
   "main": "index.js",
   "bin": {
-    "modclean": "./bin/modclean.js"
+    "diarrhea": "./bin/diarrhea.js"
   },
   "scripts": {
-    "build": "node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors"
+    "build": "node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ModClean/modclean"
+    "url": "https://github.com/jehy/diarrhea"
   },
   "keywords": [
     "module",
@@ -27,16 +28,16 @@
     "files",
     "folders"
   ],
-  "author": "Kyle Ross <thejavascriptguy@gmail.com>",
+  "author": "Jehy (https://github.com/jehy)",
   "contributors": [
-    "Benjamin Santalucia (https://github.com/ben8p)",
-    "Jehy (https://github.com/jehy)"
+    "Kyle Ross <thejavascriptguy@gmail.com>",
+    "Benjamin Santalucia (https://github.com/ben8p)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ModClean/modclean/issues"
+    "url": "https://github.com/jehy/diarrhea/issues"
   },
-  "homepage": "https://github.com/ModClean/modclean",
+  "homepage": "https://github.com/jehy/diarrhea",
   "dependencies": {
     "async-each-series": "^1.1.0",
     "commander": "^2.9.0",

@@ -9,8 +9,8 @@ const os = require('os');
 const pkg = require('../package.json');
 
 const utils = require('./utils');
-const modclean = require('../lib/modclean');
-const ModClean = modclean.ModClean;
+const diarrhea = require('../lib/modclean');
+const ModClean = diarrhea.ModClean;
 
 function list(val) {
     return val.split(',');
