@@ -8,7 +8,9 @@
   },
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "lint": "./node_modules/.bin/eslint src bin index.js webpack.config.js webpack.prod.js",
+    "test": "./bin/diarrhea.js --test"
   },
   "repository": {
     "type": "git",
@@ -43,13 +45,19 @@
     "commander": "^2.9.0",
     "empty-dir": "^1.0.0",
     "lodash.uniq": "^4.5.0",
-    "modclean-patterns-default": "2.0.0",
+    "modclean-patterns-default": "1.1.1",
     "subdirs": "^1.0.0"
   },
   "devDependencies": {
     "chalk": "^2.4.1",
     "clean-webpack-plugin": "0.1.19",
     "clui": "^0.3.1",
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
     "glob": "^7.1.1",
     "rimraf": "^2.6.2",
     "uglifyjs-webpack-plugin": "1.2.5",
@@ -57,7 +65,7 @@
     "webpack-cli": "^2.0.15"
   },
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=8.9.1"
   },
   "engineStrict": true
 }

@@ -3,9 +3,17 @@
 
 Diarrhea is a fork of [ModClean](https://github.com/ModClean/modclean) with some optimizations.
 
-[![npm version](https://img.shields.io/npm/v/diarrhea.svg)](https://www.npmjs.com/package/diarrhea) ![NPM Dependencies](https://david-dm.org/jehy/diarrhea.svg) [![NPM Downloads](https://img.shields.io/npm/dm/diarrhea.svg)](https://www.npmjs.com/package/diarrhea) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jehy/diarrhea/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/jehy/diarrhea.svg)](https://github.com/jehy/diarrhea/issues) [![Package Quality](http://npm.packagequality.com/shield/diarrhea.svg)](http://packagequality.com/#?package=diarrhea)
+[![Build Status](https://travis-ci.org/jehy/diarrhea.svg?branch=master)](https://travis-ci.org/jehy/wtfwith)
+[![npm version](https://img.shields.io/npm/v/diarrhea.svg)](https://www.npmjs.com/package/diarrhea)
+![NPM Dependencies](https://david-dm.org/jehy/diarrhea.svg)
+[![NPM Downloads](https://img.shields.io/npm/dm/diarrhea.svg)](https://www.npmjs.com/package/diarrhea)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jehy/diarrhea/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/jehy/diarrhea.svg)](https://github.com/jehy/diarrhea/issues)
+[![Package Quality](http://npm.packagequality.com/shield/diarrhea.svg)](http://packagequality.com/#?package=diarrhea)
 
-### This documentation is for diarrhea 3.x which requires Node v6.9+, if you need to support older versions, use [ModClean 1.3.0](https://github.com/ModClean/modclean/tree/1.x) instead.
+> This documentation is for diarrhea 3.x which requires Node v8+, if you need to support older versions, use [ModClean](https://github.com/ModClean/modclean) instead.
+
+> If you need to support versions older then v6.9+, use [ModClean 1.3.0](https://github.com/ModClean/modclean/tree/1.x) instead.
 
 Diarrhea is a utility that finds and removes unnecessary files and folders from your `node_modules` directory based on [predefined](https://github.com/ModClean/modclean-patterns-default) and [custom](https://github.com/jehy/diarrhea/wiki/Custom-Pattern-Plugins) [glob](https://github.com/isaacs/node-glob) patterns. This utility comes with both a CLI and a programmatic API to provide customization for your environment. Diarrhea is used and tested in an Enterprise environment on a daily basis.
 
