@@ -8,6 +8,7 @@ const path = require('path'),
 module.exports = {
   entry: './src/index.js',
   cache: true,
+  mode: 'production',
   plugins: [
     new webpack.LoaderOptionsPlugin({
       minimize: true,
