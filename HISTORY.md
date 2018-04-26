@@ -1,5 +1,9 @@
 # diarrhea History
 
+
+## 3.0.1
+* some renaming
+
 ## 3.0.0
 * Fok from [modclean](https://github.com/ModClean/modclean)
 * update deps

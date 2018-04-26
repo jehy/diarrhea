@@ -24,7 +24,7 @@ process.on('SIGINT', function() {
 program
     .version(pkg.version)
     .description('Remove unwanted files and directories from your node_modules folder')
-    .usage('modclean [options]')
+    .usage('diarrhea [options]')
     .option('-t, --test', 'Run modclean and return results without deleting files')
     .option('-p, --path <path>', 'Path to run modclean on (defaults to current directory)')
     .option('-D, --modules-dir <name>', 'Modules directory name (defaults to "node_modules")')
@@ -50,7 +50,7 @@ class ModClean_CLI {
         // Display CLI header
         console.log(
             "\n" +
-            chalk.yellow.bold('MODCLEAN ') +
+            chalk.yellow.bold('DIARRHEA ') +
             chalk.gray(' Version ' + pkg.version) + "\n"
         );
 
