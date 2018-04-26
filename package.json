@@ -1,6 +1,6 @@
 {
   "name": "diarrhea",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Remove unwanted files and directories from your node_modules folder",
   "main": "index.js",
   "bin": {
@@ -43,7 +43,7 @@
   "dependencies": {
     "async-each-series": "^1.1.0",
     "commander": "^2.9.0",
-    "empty-dir": "^1.0.0",
+    "empty-dir": "0.2.1",
     "lodash.uniq": "^4.5.0",
     "modclean-patterns-default": "1.1.1",
     "subdirs": "^1.0.0"
