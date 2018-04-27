@@ -1,5 +1,11 @@
-# diarrhea History
+# Diarrhea History
 
+
+## 3.0.5
+* Fix somehow lost readme
+
+## 3.0.4
+* Fix dirs removal
 
 ## 3.0.3
 * Fix link in markdown

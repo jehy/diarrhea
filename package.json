@@ -1,6 +1,6 @@
 {
   "name": "diarrhea",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Remove unwanted files and directories from your node_modules folder",
   "main": "index.js",
   "bin": {
